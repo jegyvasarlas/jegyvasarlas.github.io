@@ -1,1 +1,0 @@
-# jegyvasarlas.github.io
