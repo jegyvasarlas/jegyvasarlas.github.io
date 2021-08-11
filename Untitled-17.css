@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+html {
+	background-color: #242424;
+}
+
+.hatter {
+	background-color: #1a1a1a;
+}
+
+tr {
+	text-align: center;
+}
+
+.tr2 {
+	font-size: 96%;	
+}
+
+td {
+	background-color: #101010;
+	color: white;
+	font-family: Arial;
+	font-style: normal;
+		
+}
+
+a {
+	color: white;
+	font-family: Arial;
+	font-style: normal;
+	text-decoration: none;
+}
+
+.a:hover {
+	background:#4f4f4f;
+}
+
+h3 {
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	color: #bbd8fa;
+}
+
+.h2 {
+	text-align: left;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+h2 {
+	text-align: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+p {
+	text-align: left;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 18px;
+	line-height: 2;
+}
+
+h1 {
+	line-height: 2;
+}
+
+h3:hover {
+	color: #53a2fc;
+}
