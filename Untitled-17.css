@@ -16,7 +16,7 @@ html {
 
 .mav {
 	color: #bbd8fa;
-	
+
 }
 
 tr {
@@ -24,7 +24,7 @@ tr {
 }
 
 .tr2 {
-	font-size: 96%;	
+	font-size: 96%;
 }
 
 td {
@@ -32,7 +32,7 @@ td {
 	color: white;
 	font-family: Arial;
 	font-style: normal;
-		
+
 }
 
 a {
@@ -72,6 +72,15 @@ p {
 	font-size: 18px;
 	line-height: 2;
 	color: #eee;
+}
+
+.elsofelsorolasazinfoban {
+  text-align: left;
+  margin-left: 4%;
+  margin-right: 4%;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #eee;
 }
 
 span {
