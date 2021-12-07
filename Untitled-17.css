@@ -95,3 +95,19 @@ h1 {
 h3:hover, .mav:hover {
 	color: #53a2fc;
 }
+
+#myBtn {
+	
+	border: none;
+	outline: none;
+	background-color: #424242;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+  }
+  
+  #myBtn:hover {
+	background-color: #53a2fc;
+  }
