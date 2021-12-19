@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <script>
+    function szamkitalalos() {
+    var random = Math.floor(Math.random()*100)+1
+    var  a = prompt("I have thought of a number, what do you think it is? ", "");
+    var db = 1;
+    do 
+    {
+        if (isFinite(a)) 
+        {
+            if (Math.floor(a) == a)
+            {
+                if ( a < random ) 
+                {
+                    var  a = prompt("Bigger ", "");
+                    db++;
+                }
+                if ( a > random )
+                {
+                    var a = prompt("Smaller ", "");
+                    db++;
+                } 
+            }
+                        
+            else
+            {
+                alert("The number has to be a full number!");
+                location.reload();
+            }
+        
+        }
+        else
+        {
+            alert("Please say a number!");
+            location.reload();
+        }
+    } while (a != random)
+    
+document.write('<button onClick="location.reload();">Back</button><br>');
+document.write("Number guesser game:<br><br>");
+document.write("Congratulations! <b>The number you had to guess was </b>",random,"<b></b><br>");
+document.write("<b>It took you </b>",db,"<b> tries to find it.</b>");
+}
+
+szamkitalalos();
+    </script>
+</head>
+<body>
+
+</body>
+</html>
