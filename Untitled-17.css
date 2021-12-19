@@ -83,6 +83,15 @@ p {
   color: #eee;
 }
 
+.email {
+	text-align: center;
+	margin-left: 4%;
+	margin-right: 4%;
+	font-size: 16px;
+	line-height: 2;
+	color: #eee;
+}
+
 span {
 	font-weight: bold;
 	color: #fff;
